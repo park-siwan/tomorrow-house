@@ -1,10 +1,15 @@
+/* stylelint-disable */
 @import './base/fonts';
+@import './base/normalize'; // * {
+@import './base/reset';
+//   font-family: 'Noto Sans KR', sans-serif;
 
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+// }
 
-p {
-  display: block;
-  color: rgb(250, 10, 10);
-}
+// p {
+
+//   display: block;
+
+//   color: rgb(219, 29, 29);
+
+// }
