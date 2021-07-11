@@ -1,19 +1,19 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: font-main;
+  font-family: $font-main;
 
   --moz-osx-font-smoothing: grayscale;
   --webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-family: font-main;
+  font-family: $font-main;
   font-size: $font-size-16;
 }
 
 body {
-  font-family: font-main;
+  font-family: $font-main;
   color: $primary;
 }
 
