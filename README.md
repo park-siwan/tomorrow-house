@@ -24,10 +24,7 @@
                       <a href="/">회원가입</a>
                     </div>
                   </div>
-                  <button class="btn-primary btn-40 sm-hidden" type="button">
-                    글쓰기
-                    <i class="ic-chevron" aria-hidden></i>
-                  </button>
+
                 </div>
 ```
 
@@ -81,4 +78,7 @@
                     </div>
                   </button>
                 </div>
+                <button class="btn-primary btn-40 sm-hidden" type="button">글쓰기
+                  <i class="ic-chevron" aria-hidden></i>
+                </button>
 ```
