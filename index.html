@@ -68,6 +68,7 @@
                   />
                 </div>
                 <!-- NOTE: 로그인을 한 경우 -->
+
                 <div class="button-group">
                   <button
                     class="gnb-icon-button is-search sm-only"
@@ -101,21 +102,39 @@
                     <i class="ic-cart"></i>
                     <strong class="badge">3</strong>
                   </a>
+                  <div class="my-menu sm-hidden">
+                    <button
+                      class="my-menu-button"
+                      type="button"
+                      aria-label="메뉴 열기 버튼"
+                    >
+                      <div class="avatar-32 sm-hidden">
+                        <img
+                          src="./assets/images/img-user-01.jpg"
+                          alt="사달라 아저씨"
+                        />
+                      </div>
+                    </button>
 
-                  <button
-                    class="gnb-avatar-button"
-                    class="sm-hidden"
-                    type="button"
-                    aria-label="메뉴 열기 버튼"
-                  >
-                    <div class="avatar-32 sm-hidden">
-                      <img
-                        src="./assets/images/img-user-01.jpg"
-                        alt="사달라 아저씨"
-                      />
+                    <div class="my-menu-content">
+                      <ul class="my-menu-list">
+                        <li class="my-menu-item">
+                          <a href="/">마이페이지</a>
+                        </li>
+                        <li class="my-menu-item">
+                          <a href="/">나의 쇼핑</a>
+                        </li>
+                        <li class="my-menu-item">
+                          <a href="/">이벤트</a>
+                        </li>
+                        <li class="my-menu-item">
+                          <button type="button">로그아웃</button>
+                        </li>
+                      </ul>
                     </div>
-                  </button>
+                  </div>
                 </div>
+
                 <button class="btn-primary btn-40 sm-hidden" type="button">
                   글쓰기
                   <i class="ic-chevron" aria-hidden></i>
