@@ -35,11 +35,21 @@
     a {
       @include flexbox(start);
       @include text-style(14, $primary);
+      width: 100%;
       font-weight: 700;
     }
 
     .avatar-24 {
+      flex-grow: 0;
+      flex-shrink: 0;
       margin-right: 8px;
+    }
+
+    .username {
+      flex-grow: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 
