@@ -5,9 +5,7 @@
   overflow-x: auto;
   overscroll-behavior: contain;
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+  @include no-scrollbar;
 
   &-list {
     @include inline-flexbox(start);
