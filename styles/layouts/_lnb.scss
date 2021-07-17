@@ -3,7 +3,6 @@
   $lnb-height-md: 50px;
   $lnb-link-padding: 8px;
   $grid-margin: $sm-margin + $gutter / 2;
-  z-index: 1;
 
   overflow-x: auto;
   overscroll-behavior: contain;
@@ -21,7 +20,6 @@
   &-item {
     &.is-active {
       a {
-        z-index: 2;
         color: $blue;
         border-bottom-color: $blue;
       }
@@ -33,7 +31,7 @@
 
       height: $lnb-height-sm;
       padding: 0 $lnb-link-padding;
-      margin-top: -1px;
+
       font-weight: 700;
       border-bottom: 2px solid transparent;
 
