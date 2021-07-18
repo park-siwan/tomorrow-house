@@ -6,6 +6,7 @@
 
   overflow-x: auto;
   overscroll-behavior: contain;
+  background-color: $white;
   border-bottom: 1px solid $border;
   @include no-scrollbar;
 
