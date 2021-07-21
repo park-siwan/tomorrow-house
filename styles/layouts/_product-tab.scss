@@ -55,6 +55,10 @@
         margin-left: 8px;
       }
     }
+
+    &-list {
+      margin: 0;
+    }
   }
   @include responsive(D) {
     &-item button {
